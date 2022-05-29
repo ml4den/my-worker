@@ -11,6 +11,6 @@
 export default {
   async fetch(request) {
     console.log(request)
-    return new Response("Hello World!!!");
+    return new Response("Hello World!!");
   },
 };
